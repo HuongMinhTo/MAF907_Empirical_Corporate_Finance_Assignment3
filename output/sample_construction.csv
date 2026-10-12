@@ -1,0 +1,11 @@
+step,firm_years,firms,fy_1971_1998,fy_1999_2025
+Compustat annual (INDL/STD/D/C),554965,46528,241714,313251
+Unique gvkey-fyear,554952,46528,241712,313240
+"Linked in CRSP/Compustat Merged (LC/LU, P/C)",320147,27736,159184,160963
+Drop financial firms (SIC 6000-6999),244011,22260,128374,115637
+Drop regulated utilities (SIC 4900-4999),233202,21727,121772,111430
+Drop major mergers (comparability status AB),232862,21716,121509,111353
+Drop missing (or zero) book assets,232053,21679,120953,111100
+"Drop format codes 4, 5, 6",231640,21659,120550,111090
+Positive net assets,225309,21313,117536,107773
+"Regression sample: DEF, net debt, net equity non-missing after trim",208811,20611,108070,100741

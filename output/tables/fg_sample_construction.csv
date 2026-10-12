@@ -1,0 +1,11 @@
+Step,Firm-years,Firms,1971–1998,1999–2025
+Compustat annual (INDL/STD/D/C),"554,965","46,528","241,714","313,251"
+Unique gvkey-fyear,"554,952","46,528","241,712","313,240"
+"Linked in CRSP/Compustat Merged (LC/LU, P/C)","320,147","27,736","159,184","160,963"
+Drop financial firms (SIC 6000-6999),"244,011","22,260","128,374","115,637"
+Drop regulated utilities (SIC 4900-4999),"233,202","21,727","121,772","111,430"
+Drop major mergers (comparability status AB),"232,862","21,716","121,509","111,353"
+Drop missing (or zero) book assets,"232,053","21,679","120,953","111,100"
+"Drop format codes 4, 5, 6","231,640","21,659","120,550","111,090"
+Positive net assets,"225,309","21,313","117,536","107,773"
+"Regression sample: DEF, net debt, net equity non-missing after trim","208,811","20,611","108,070","100,741"

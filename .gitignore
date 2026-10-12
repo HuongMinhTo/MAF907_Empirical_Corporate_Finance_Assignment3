@@ -1,0 +1,14 @@
+data/
+paper/
+report/
+
+# Word lock files
+~$*
+
+# R / RStudio
+.Rhistory
+.RData
+.Rproj.user/
+
+# macOS
+.DS_Store

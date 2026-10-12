@@ -1,0 +1,23 @@
+**Table 5 (replicated and extended): Disaggregating the financing deficit**
+
+|   | (a) 1971-2025 | (b) 1971-1998 | (c) 1999-2025 | 1971-1989 no gaps [FG col. 1] | 1971-1989 gaps [FG col. 4] | 1971-1989 + current maturities [FG col. 7] |
+|:---|---:|---:|---:|---:|---:|---:|
+| Constant | -0.018*** | -0.026*** | -0.011*** | -0.007*** | -0.028*** | -0.017*** |
+|  | (0.000) | (0.001) | (0.000) | (0.001) | (0.001) | (0.001) |
+| Cash dividends | 0.259*** | 0.284*** | 0.253*** | 0.925*** | 0.431*** | 0.493*** |
+|  | (0.011) | (0.018) | (0.014) | (0.031) | (0.021) | (0.026) |
+| Investments | 0.276*** | 0.332*** | 0.228*** | 0.802*** | 0.408*** | 0.559*** |
+|  | (0.003) | (0.005) | (0.004) | (0.015) | (0.007) | (0.009) |
+| Delta working capital | 0.151*** | 0.183*** | 0.125*** | 0.771*** | 0.253*** | 0.473*** |
+|  | (0.002) | (0.004) | (0.003) | (0.018) | (0.006) | (0.011) |
+| Internal cash flow | -0.115*** | -0.155*** | -0.090*** | -0.780*** | -0.221*** | -0.410*** |
+|  | (0.002) | (0.004) | (0.003) | (0.017) | (0.007) | (0.013) |
+| Current maturity of LTD |  |  |  |  |  | -0.157*** |
+|  |  |  |  |  |  | (0.015) |
+| N | 205,282 | 106,354 | 98,928 | 6,826 | 63,972 | 55,555 |
+| Firms | 20,375 | 13,356 | 12,092 | 360 | 8,378 | 7,482 |
+| R2 | 0.180 | 0.216 | 0.151 | 0.764 | 0.299 | 0.493 |
+| Wald: all = PO values (chi2) | 158591*** | 51407*** | 135553*** | 249*** | 16674*** | 2894*** |
+| Wald: equal magnitudes (chi2) | 3419*** | 1783*** | 1611*** | 49*** | 1163*** | 523*** |
+
+*Dependent variable: net debt issued / net assets. Regressors scaled by net assets; internal cash flow enters with its own sign, so the pecking order predicts +1, +1, +1 and -1. Wald tests use the clustered covariance: 'PO values' tests all four = (1, 1, 1, -1); 'equal magnitudes' tests the aggregation restriction div = inv = dWC = -CF. Firm-clustered SEs. *** p<0.01.*

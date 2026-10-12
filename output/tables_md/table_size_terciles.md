@@ -1,0 +1,12 @@
+**Pecking order regression by market-capitalisation tercile**
+
+|   | 1971-1998: Small | 1971-1998: Medium | 1971-1998: Large | 1999-2025: Small | 1999-2025: Medium | 1999-2025: Large | 1971-2025: Small | 1971-2025: Medium | 1971-2025: Large |
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Financing deficit (b) | 0.194*** | 0.177*** | 0.303*** | 0.075*** | 0.133*** | 0.260*** | 0.118*** | 0.153*** | 0.278*** |
+|  | (0.005) | (0.005) | (0.009) | (0.003) | (0.004) | (0.007) | (0.003) | (0.003) | (0.006) |
+| R2 | 0.170 | 0.138 | 0.248 | 0.068 | 0.122 | 0.240 | 0.105 | 0.128 | 0.242 |
+| N | 35,644 | 35,654 | 35,667 | 33,562 | 33,575 | 33,581 | 69,206 | 69,229 | 69,248 |
+| Firms | 7,788 | 8,385 | 5,116 | 7,220 | 7,305 | 4,648 | 12,971 | 13,444 | 7,913 |
+| Large - small (b) |  |  | 0.109*** (0.011) |  |  | 0.185*** (0.008) |  |  | 0.160*** (0.006) |
+
+*Terciles formed each fiscal year on CRSP market capitalisation at the fiscal year end (Compustat price x shares if CRSP is missing). Large - small: interaction coefficient def x large, firm-clustered SE. Triple interaction (change of the large-small gap after 1998): 0.076 (se 0.013, p = 0.000).*

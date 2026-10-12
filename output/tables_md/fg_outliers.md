@@ -1,0 +1,20 @@
+| Variable | Period | 0.5% cut-off | 99.5% cut-off | Raw min | Raw max | Mean (sd), untrimmed | Mean (sd), trimmed |
+|:-----------|:----|-------:|--------:|----:|----:|------------:|-----------:|
+| Financing deficit | 1971–98 | −0.825 | 2.310 | −145.5 | 757.7 | 0.121 (2.56) | 0.102 (0.290) |
+| Financing deficit | 1999–25 | −0.687 | 3.062 | −87.5 | 970.1 | 0.177 (3.69) | 0.124 (0.363) |
+| Net debt issued | 1971–98 | −0.923 | 0.783 | −145.5 | 96.5 | 0.006 (1.01) | 0.016 (0.140) |
+| Net debt issued | 1999–25 | −0.655 | 0.863 | −42.7 | 142.7 | 0.020 (0.75) | 0.015 (0.123) |
+| Net equity issued | 1971–98 | −0.258 | 2.203 | −55.6 | 795.0 | 0.120 (2.50) | 0.088 (0.258) |
+| Net equity issued | 1999–25 | −0.459 | 2.881 | −87.5 | 970.1 | 0.163 (3.63) | 0.111 (0.334) |
+| Investment | 1971–98 | −0.843 | 1.266 | −113.6 | 72.1 | 0.148 (0.82) | 0.143 (0.185) |
+| Investment | 1999–25 | −1.266 | 0.993 | −86.6 | 55.2 | 0.077 (0.79) | 0.087 (0.204) |
+| Internal cash flow | 1971–98 | −3.176 | 0.907 | −930.3 | 197.7 | 0.020 (3.61) | 0.076 (0.306) |
+| Internal cash flow | 1999–25 | −4.468 | 0.672 | −754.4 | 62.0 | −0.112 (4.48) | −0.016 (0.420) |
+| Δ working capital | 1971–98 | −2.731 | 1.066 | −354.8 | 94.1 | −0.023 (2.29) | 0.024 (0.284) |
+| Δ working capital | 1999–25 | −2.498 | 1.100 | −498.2 | 215.7 | −0.030 (2.58) | 0.012 (0.285) |
+| Dividends | 1971–98 | 0.000 | 0.230 | −0.0 | 47.4 | 0.016 (0.19) | 0.013 (0.023) |
+| Dividends | 1999–25 | 0.000 | 0.339 | −0.0 | 67.6 | 0.018 (0.28) | 0.012 (0.031) |
+
+Table: Outlier treatment: trimming cut-offs and the effect of trimming on the scaled variables
+
+Note: All variables are scaled by net assets (total assets − current liabilities). Untrimmed = firm-years with positive net assets. Values outside the cut-offs are set to missing (F&G p. 225). Cut-offs are computed separately for 1971–1998 and 1999–2025.
