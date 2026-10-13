@@ -29,15 +29,13 @@ Assignment3/
 │   ├── tables_md/             the same tables as Markdown (fg_* = Frank & Goyal's layout)
 │   ├── figures/               colour figures (03_analysis.R)
 │   ├── figures_bw/            black-and-white figures (05_figures_bw.R)
-│   └── *.csv, results.rds     sample-construction counts, missing-value audit, saved estimates
-├── paper/                     Frank & Goyal (2003) PDF and the cropped original Figure 1
-└── report/                    the written report
+└   └── *.csv, results.rds     sample-construction counts, missing-value audit, saved estimates
 ```
 
 `data/`, `paper/` and `report/` are not in the Git repository (see `.gitignore`): the WRDS data are licensed, the paper is copyrighted, and the report is submitted separately.
 
 | Script (`code/`) | What it does |
-|----|----|
+|------------------------------------|------------------------------------|
 | `00_config.R` | Paths, periods, trimming rule (0.5% per tail within 1971-98 and 1999-2025), items recoded to zero |
 | `01_get_data.R` | WRDS download into `data/raw/`: Compustat `funda` 1970-2025, company header, CCM link history, CRSP CIZ monthly market cap |
 | `02_build_sample.R` | Screens (CCM link, SIC 6000-6999 and 4900-4999, `compst = 'AB'`, missing assets, format codes 4-6), F&G variable definitions, missing-value recoding, trimming, size groups; writes `data/processed/` |

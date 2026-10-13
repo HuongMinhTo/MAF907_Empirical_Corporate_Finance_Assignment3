@@ -54,8 +54,8 @@ T12_YEARS_ORIG <- c(1971L, 1975L, 1980L, 1985L, 1990L, 1995L, 1998L)
 T12_YEARS_EXT  <- c(2000L, 2005L, 2010L, 2015L, 2020L, 2025L)
 
 # Compustat items recoded from missing to zero before trimming (F&G fn. 3,
-# Table 1 notes and the starred items of Table 8). Issuance items (sstk,
-# dltis) and income before extraordinary items (ibc) are NOT recoded: in
+# Table 1 notes and the starred items of Table 8). 
+# Issuance items (sstk,dltis) and income before extraordinary items (ibc) are NOT recoded: in
 # F&G's Table 9 their counts are lower than those of the recoded items.
 # chech is recoded although Table 8 does not star it: before 1985 it is
 # missing for ~90% of format 1-3 firm-years, and without the recode almost
